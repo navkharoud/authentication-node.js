@@ -1,0 +1,12 @@
+<h1>Login:</h1>
+{{#if message}}
+    {{message}}<br /><br />
+{{/if}}
+<form action="processLogin" method="POST">
+    Username: <br />
+    <input type="text" name="uname"><br />
+    Password: <br />
+    <input type="text" name="pword"><br />
+    <button type="submit" name="buttonVar" value="login">Login</button>
+    <button type="submit" name="buttonVar" value="register">Register</button>
+</form>
